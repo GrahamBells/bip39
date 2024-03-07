@@ -2431,6 +2431,13 @@
             },
         },
         {
+            name: "BEL - Bellscoin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.bellscoin;
+                setHdCoin(0);
+            },
+        },
+        {
             name: "BTC - Bitcoin",
             onSelect: function() {
                 network = libs.bitcoin.networks.bitcoin;

@@ -172,6 +172,17 @@ libs.bitcoin.networks.slimcointn = {
   wif: 0x57
 };
 
+libs.bitcoin.networks.bellscoin = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x02facafd,
+    private: 0x02fac398
+  },
+  pubKeyHash: 0x19,
+  scriptHash: 0x1e,
+  wif: 0x99
+};
+
 libs.bitcoin.networks.dogecoin = {
   messagePrefix: '\x19Dogecoin Signed Message:\n',
   bip32: {
